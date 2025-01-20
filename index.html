@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Bisaso Benjamin - Software Developer Portfolio">
+    <link rel="stylesheet" href="styles.css">
+    <title>Bisaso Benjamin - Software Developer Portfolio</title>
+</head>
+<body>
+    <header class="site-header">
+        <div class="wrapper-inner">
+            <nav class="main-nav" aria-label="Main navigation">
+                <ul class="nav-list">
+                    <li><a href="#hero" class="nav-link">Home</a></li>
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#work" class="nav-link">Work</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero-section">
+            <div class="wrapper">
+                <div class="wrapper-inner">
+                    <div class="hero-content text-center">
+                        <h1>Bisaso Benjamin</h1>
+                        <p class="subtitle">Software Developer</p>
+                    </div>
+                </div>
+                <div class="hero-footer">
+                    <address class="contact-info">
+                        <p>Kansanga, Kampala</p>
+                    </address>
+                    <div class="social-links">
+                        <p>Find me online</p>
+                        <ul class="social-list">
+                            <li>
+                                <a href="https://GitHub/Benni-10" target="_blank" rel="noopener noreferrer">
+                                    <img src="github.png" alt="" width="24" height="24" loading="lazy">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://x.com/Benjamin" target="_blank" rel="noopener noreferrer" aria-label="Twitter Profile">
+                                    <img src="user.png" alt="" width="24" height="24" loading="lazy">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="wrapper">
+                <h2 class="section-title text-center">I am a software engineering student.</h2>
+                <div class="wrapper-inner">
+                    <div class="about-content">
+                        <figure class="about-figure">
+                            <img src="benja.jpg" alt="Bisaso Benjamin" width="200" height="200" loading="lazy" class="about-img">
+                            <figcaption>Benni</figcaption>
+                        </figure>
+                        <p class="about-text">
+                            Studies in ISBAT University, I've spent 2 years building with languages: JavaScript, C#, Java, HTML, CSS, and C. 
+                            I am passionate about software development.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Work Section -->
+        <section id="work" class="work-section">
+            <div class="wrapper-inner">
+                <h2 class="section-title text-center">My Experience</h2>
+                <p class="work-description">
+                    So far I've learned 5+ programming languages and I'm striving to master and learn new ones.
+                </p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="wrapper">
+                <div class="contact-container">
+                    <!-- Contact Info Side -->
+                    <div class="contact-info-side">
+                        <h2 class="section-title">Let's Connect</h2>
+                        <p class="contact-intro">I'm always interested in hearing about new projects and opportunities.</p>
+                        
+                        <div class="contact-details">
+                            <div class="contact-item">
+                                <div class="contact-icon">📍</div>
+                                <div class="contact-text">
+                                    <h3>Location</h3>
+                                    <p>Kansanga, Kampala</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">📧</div>
+                                <div class="contact-text">
+                                    <h3>Email</h3>
+                                    <p>gonyabenja@gmail.com</p>
+                                </div>
+                            </div>
+                            
+                            <div class="contact-item">
+                                <div class="contact-icon">💼</div>
+                                <div class="contact-text">
+                                    <h3>Work Status</h3>
+                                    <p>Open to opportunities</p>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="social-connect">
+                            <h3>Connect with me</h3>
+                            <div class="social-icons">
+                                <a href="https://github.com/Benni-10" class="social-icon" target="_blank" rel="noopener noreferrer">
+                                    <img src="github.png" alt="GitHub" width="24" height="24">
+                                </a>
+                                <a href="https://x.com/Benjamin" class="social-icon" target="_blank" rel="noopener noreferrer">
+                                    <img src="user.png" alt="Twitter" width="24" height="24">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <!-- Contact Form Side -->
+                    <div class="contact-form-side">
+                        <div class="form-container">
+                            <h3>Send me a message</h3>
+                            <form action="https://formspree.io/f/xbllvoed" method="POST" class="contact-form">
+                                <div class="form-group">
+                                    <label for="name">Full Name</label>
+                                    <input type="text" id="name" name="name" placeholder="Your name" required>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="email">Email Address</label>
+                                    <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="subject">Subject</label>
+                                    <input type="text" id="subject" name="subject" placeholder="What is this regarding?">
+                                </div>
+                                
+                                <div class="form-group">
+                                    <label for="message">Message</label>
+                                    <textarea id="message" name="message" placeholder="Your message here..." required></textarea>
+                                </div>
+                                
+                                <button type="submit" class="submit-btn">
+                                    <span class="btn-text">Send Message</span>
+                                    <span class="btn-icon">→</span>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <footer class="site-footer">
+        <div class="wrapper">
+            <p class="text-right">&copy; 2025 Bisaso Benjamin. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
